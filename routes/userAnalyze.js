@@ -1,6 +1,6 @@
 
 import express from "express";
-import { analyzeUSer } from "../controllers/analyze";
+import { analyzeUSer } from "../controllers/analyze.js";
 
 const router = express.Router();
 
